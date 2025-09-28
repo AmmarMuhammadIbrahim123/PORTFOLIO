@@ -36,7 +36,6 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import Link from 'next/link';
-// import Link from 'next/link';
 
 export const assets = {
     user_image,
@@ -84,28 +83,26 @@ export const workData = [
         title: 'Travel website',
         description: 'Frontend Design',
         bgImage: '/Travel-app.PNG',
-        Link:'https://travelling-website-swart.vercel.app/'
-    },
-
-    {
-        title: 'PDF-Summarize',
-        description: 'Frontend-Design',
-        bgImage: '/work-4.png',
-         Link:'https://travelling-website-swart.vercel.app/'
+        Link: "https://travelling-website-swart.vercel.app/"
     },
     {
-        title: 'Weather Website ',
-        description: 'Web Design',
-        bgImage: '/work-2.png',
-        Link:"https://weather-app-lake-xi-98.vercel.app/"
+        title: 'PDF Summmary',
+        description: 'Frontend Design',
+        bgImage: '/pdf.PNG',
+        Link:'https://pdf-summarize-teal.vercel.app/'
     },
     {
-        title: 'Age-Calculator',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Weather App',
+        description: 'Weather Check',
+        bgImage: '/Weather.PNG',
+        Link:'https://assignmet-weather-app.netlify.app/'
+    },
+    {
+        title: 'Age Calculator',
+        description: 'Calculate Your Age',
+        bgImage: '/Age.PNG',
         Link:'https://astonishing-platypus-ee2ffd.netlify.app/'
     },
-    
 ]
 
 export const serviceData = [
